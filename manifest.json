@@ -1,7 +1,7 @@
 {
   "name": "9gagtension",
-  "version": "1.0",
-  "description": "Meme emoticon support for Facebook comments.",
+  "version": "1.1",
+  "description": "Meme emoticon support for Facebook comments, messages and chat.",
   "content_scripts": [ {
 	  "all_frames": true,
       "js": [ "jquery-1.7.1.min.js", "meme.js", "9gagtension.js" ],
