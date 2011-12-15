@@ -5,7 +5,10 @@
   "content_scripts": [ {
 	  "all_frames": true,
       "js": [ "jquery-1.7.1.min.js", "meme.js", "9gagtension.js" ],
-	  "matches": [ "https://www.facebook.com/plugins/comments.php*" ],
+	  "matches": [ "https://www.facebook.com/plugins/comments.php*",
+				   "http://www.facebook.com/plugins/comments.php*",
+				   "https://www.facebook.com/messages/*",
+				   "http://www.facebook.com/messages/*" ],
       "run_at": "document_end"
    } ],
   "permissions": [
