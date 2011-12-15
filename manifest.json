@@ -1,0 +1,14 @@
+{
+  "name": "9gagtension",
+  "version": "1.0",
+  "description": "Meme emoticon support for Facebook comments.",
+  "content_scripts": [ {
+	  "all_frames": true,
+      "js": [ "jquery-1.7.1.min.js", "9gagtension.js" ],
+	  "matches": [ "https://www.facebook.com/plugins/comments.php*" ],
+      "run_at": "document_end"
+   } ],
+  "permissions": [
+    "http://api.flickr.com/"
+  ]
+}
