@@ -9,6 +9,5 @@
       "run_at": "document_end"
    } ],
   "permissions": [
-    "http://api.flickr.com/"
   ]
 }
