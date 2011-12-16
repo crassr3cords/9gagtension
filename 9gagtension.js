@@ -1,6 +1,6 @@
 function scan()
 {
-	$('.postText, #MessagingMessages .content, div.fbChatMessage').each(
+	$('.postText, #MessagingMessages .content, div.fbChatMessage, .commentList .commentBody').each(
 		function()
 		{
 			var f = $(this).data('9Gprocessed');
