@@ -4,10 +4,6 @@ var memes = [
 	  img: 'mother-of-god.jpg'
 	},
 	{
-	  matches: ['me gusta', 'mg', 'megusta'],
-	  img: 'me-gusta.jpg'
-	},
-	{
 	  matches: ['cereal guy', 'cg', 'cerealguy'],
 	  img: 'cereal-guy.jpg'
 	},

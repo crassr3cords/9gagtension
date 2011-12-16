@@ -12,10 +12,8 @@ function scan()
 				for(var r in meme.matches)
 				{
 					var re = meme.matches[r];
-					console.log(re);
-					console.log('before:'+$(this).html());
-					$(this).html($(this).html().replace(re, '<img src="'+meme.img+'"/>'));
-					console.log('after:'+$(this).html());
+					var source = re.source;
+					$(this).html($(this).html().replace(re, '<img src="'+meme.img+'" title="'+source+'"/>'));
 				}
 			}
 		}
