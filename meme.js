@@ -1,5 +1,9 @@
 var memes = [
 	{
+	  matches: ['face palm', 'fp', 'facepalm'],
+	  img: 'face-palm-1.jpg'
+	},
+	{
 	  matches: ['mother of god', 'mog', 'motherofgod'],
 	  img: 'mother-of-god.jpg'
 	},

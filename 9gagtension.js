@@ -31,6 +31,8 @@ $(document).ready(
 				meme.matches[i] = new RegExp(':'+meme.matches[i]+':', 'gim');
 			meme.img = chrome.extension.getURL('rages/'+meme.img);
 		}
+		// gonna make a dock icon for facebook, i guess.
+		// $('#pagelet_presence .fbDockWrapper').append($('<a href="#">hel</a>'));
 		setInterval('scan()', 100);
 	}
 );
