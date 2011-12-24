@@ -1,6 +1,6 @@
 {
   "name": "9gagtension",
-  "version": "1.2",
+  "version": "1.3",
   "description": "Meme emoticon support for Facebook comments, messages and chat.",
   "content_scripts": [ {
 	  "all_frames": true,
