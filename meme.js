@@ -58,5 +58,9 @@ var memes = [
 	{
 	  matches: ['y u no', 'yuno'],
 	  img: 'y-u-no-guy.jpg'
+	},
+	{
+	  matches: ['feel like a sir', 'flas', 'fls'],
+	  img: 'feel-like-a-sir.jpg'
 	}
 ];
